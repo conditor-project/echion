@@ -7,6 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
+    "start": "parcel index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "browserslist": [
@@ -19,6 +20,7 @@
     "bootstrap": "^4.3.1",
     "d3": "^5.12.0",
     "lit-html": "^1.1.2",
+    "parcel": "^1.12.3",
     "ramda": "^0.26.1",
     "venn.js": "^0.2.20"
   },
