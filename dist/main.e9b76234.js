@@ -1697,4 +1697,4 @@ var t,r=arguments[3];!function(r,n){"object"==typeof exports&&"undefined"!=typeo
     <venn-diagram></venn-diagram>
     `}onSubmit(e){e.preventDefault();const l=[].slice.call(this.querySelectorAll("my-input-file")).map(e=>({data:e.data,name:e.name})),t=this.querySelector("#commonField").value;this.querySelector("#venn").dispatchEvent(new window.CustomEvent("onUpdateChart",{detail:{dataFiles:l,commonFieldValue:t}}))}}window.customElements.define("my-app",l);
 },{"lit-html":"KMqM","./src/my-input-file.js":"UAPt","./src/venn-diagram.js":"0Xfk"}]},{},["epB2"], null)
-//# sourceMappingURL=/main.e9b76234.js.map
+//# sourceMappingURL=/echion/main.e9b76234.js.map
