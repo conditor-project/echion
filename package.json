@@ -8,6 +8,8 @@
   },
   "scripts": {
     "start": "parcel index.html",
+    "build:ghpages": "parcel build index.html --public-url /echion/",
+    "deploy:ghpages" : "git subtree push --prefix dist origin gh-pages",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "browserslist": [
