@@ -30,7 +30,10 @@ class MyInputFile extends window.HTMLElement {
 
   template () {
     return html`
-    <input type="file" accept="application/json">
+    <input type="file" class="form-control-file" accept="application/json" required>
+    <div class="invalid-feedback">
+      You forgot to choose a file !
+    </div>
     `;
   }
 }
