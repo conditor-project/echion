@@ -9,7 +9,7 @@
   "scripts": {
     "start": "parcel index.html",
     "build:ghpages": "parcel build index.html --public-url /echion/",
-    "deploy:ghpages" : "git subtree push --prefix dist origin gh-pages",
+    "deploy:ghpages": "git subtree push --prefix dist origin gh-pages",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "browserslist": [
@@ -19,14 +19,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "d3": "^5.12.0",
-    "lit-html": "^1.1.2",
-    "parcel": "^1.12.3",
+    "bootstrap": "^4.6.0",
+    "d3": "^5.16.0",
+    "lit-html": "^1.4.1",
+    "parcel": "^1.12.4",
     "ramda": "^0.26.1",
     "venn.js": "^0.2.20"
   },
   "devDependencies": {
-    "cssnano": "^4.1.10"
+    "cssnano": "^4.1.11"
   }
 }
